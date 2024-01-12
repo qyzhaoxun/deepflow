@@ -20,7 +20,10 @@ use std::path::Path;
 use anyhow::Result;
 use clap::{ArgAction, Parser};
 use log::error;
-#[cfg(any(target_os = "linux", target_os = "android"))]
+
+#[cfg(target_os = "linux")]
+use profile::start_profile_heap;
+#[cfg(target_os = "linux")]
 use signal_hook::{consts::TERM_SIGNALS, iterator::Signals};
 
 use ::deepflow_agent::*;
@@ -100,6 +103,8 @@ const VERSION_INFO: &'static trident::VersionInfo = &trident::VersionInfo {
 };
 
 fn main() -> Result<()> {
+    #[cfg(target_os = "linux")]
+    start_profile_heap();
     panic::set_hook(Box::new(|panic_info| {
         error!("{:?}", panic_info.to_string());
     }));
