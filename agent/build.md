@@ -8,7 +8,7 @@ The easiest way is to use our docker image:
 ```bash
 git clone --recursive https://github.com/deepflowio/deepflow.git 
 cd deepflow 
-docker run --privileged --rm -it -v \
+docker run --privileged --rm -it --platform linux/amd64 -v \
     $(pwd):/deepflow -v ~/.cargo:/usr/local/cargo hub.deepflow.yunshan.net/public/rust-build bash -c \
     "cd /deepflow/agent && cargo build"
 
