@@ -31,7 +31,7 @@
 #define NS_PER_US		1000ULL
 #define NS_PER_SEC		1000000000ULL
 
-#define PROTO_INFER_CACHE_SIZE  80
+#define PROTO_INFER_CACHE_SIZE  20
 
 #define SUBMIT_OK		(0)
 #define SUBMIT_INVALID		(-1)
@@ -127,24 +127,24 @@ MAP_ARRAY(proto_ports_bitmap, __u32, ports_bitmap_t, PROTO_NUM)
 
 // write() syscall's input argument.
 // Key is {tgid, pid}.
-BPF_HASH(active_write_args_map, __u64, struct data_args_t)
+BPF_HASH(active_write_args_map, __u64, struct data_args_t, 8192)
 
 // read() syscall's input argument.
 // Key is {tgid, pid}.
-BPF_HASH(active_read_args_map, __u64, struct data_args_t)
+BPF_HASH(active_read_args_map, __u64, struct data_args_t, 8192)
 
 // socket_info_map, 这是个hash表，用于记录socket信息，
 // Key is {pid + fd}. value is struct socket_info_s
-BPF_HASH(socket_info_map, __u64, struct socket_info_s)
+BPF_HASH(socket_info_map, __u64, struct socket_info_s, 8192)
 
 // socket_info lifecycle is inconsistent with socket. If the role information
 // is saved to the socket_info_map, it will affect the generation of syscall
 // trace id. Create an independent map to save role information
 // Key is {pid + fd}. value is role type
-BPF_HASH(socket_role_map, __u64, __u32);
+BPF_HASH(socket_role_map, __u64, __u32, 8192);
 
 // Key is struct trace_key_t. value is trace_info_t
-BPF_HASH(trace_map, struct trace_key_t, struct trace_info_t)
+BPF_HASH(trace_map, struct trace_key_t, struct trace_info_t, 8192)
 
 // Stores the identity used to fit the kernel, key: 0, vlaue:{tgid, pid}
 MAP_ARRAY(adapt_kern_uid_map, __u32, __u64, 1)

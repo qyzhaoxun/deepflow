@@ -29,7 +29,7 @@ struct bpf_map_def SEC("maps") tls_conn_map = {
 	.type = BPF_MAP_TYPE_HASH,
 	.key_size = sizeof(struct tls_conn_key),
 	.value_size = sizeof(struct tls_conn),
-	.max_entries = MAX_SYSTEM_THREADS,
+	.max_entries = 8192,
 };
 /* *INDENT-ON* */
 
