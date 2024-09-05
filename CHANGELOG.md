@@ -8,6 +8,10 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: OffCpuProfile adds authorization control [#8064](https://github.com/deepflowio/deepflow/pull/8064) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
+* fix: target port associated to controller [#8056](https://github.com/deepflowio/deepflow/pull/8056) by [askyrie](https://github.com/askyrie)
+* fix: agent - eBPF Fix the issue with loading '__sys_recvmmsg' (#8052) [#8055](https://github.com/deepflowio/deepflow/pull/8055) by [yinjiping](https://github.com/yinjiping)
+* fix: Fix typos [#8027](https://github.com/deepflowio/deepflow/pull/8027) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent - eBPF fentry/fexit Check for '__sys_recvmmsg' [#8014](https://github.com/deepflowio/deepflow/pull/8014) by [yinjiping](https://github.com/yinjiping)
 * fix: resource label errors for non-default organization resource change events [#8008](https://github.com/deepflowio/deepflow/pull/8008) by [lzf575](https://github.com/lzf575)
 * fix: controller records unnecessary error logs [#7995](https://github.com/deepflowio/deepflow/pull/7995) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
@@ -171,6 +175,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Rust memory profile support [#8049](https://github.com/deepflowio/deepflow/pull/8049) by [rvql](https://github.com/rvql)
+* feat: reduce clickhouse connection memory [#8045](https://github.com/deepflowio/deepflow/pull/8045) by [lzf575](https://github.com/lzf575)
+* feat: add tags and metrics visibility [#7985](https://github.com/deepflowio/deepflow/pull/7985) by [duandaa](https://github.com/duandaa)
 * feat: generate agent.proto to grpc data [#8023](https://github.com/deepflowio/deepflow/pull/8023) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: querier converts types when using dictget [#8012](https://github.com/deepflowio/deepflow/pull/8012) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: switch ClickHouse endpoint without restart [#7969](https://github.com/deepflowio/deepflow/pull/7969) by [lzf575](https://github.com/lzf575)
