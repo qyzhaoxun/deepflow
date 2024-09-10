@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: remove unnecessary restart for ebpf collector [#8101](https://github.com/deepflowio/deepflow/pull/8101) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: agent - eBPF fentry/fexit Check for '__sys_recvmmsg' [#8014](https://github.com/deepflowio/deepflow/pull/8014) by [yinjiping](https://github.com/yinjiping)
 * fix: resource label errors for non-default organization resource change events [#8008](https://github.com/deepflowio/deepflow/pull/8008) by [lzf575](https://github.com/lzf575)
 * fix: controller records unnecessary error logs [#7995](https://github.com/deepflowio/deepflow/pull/7995) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
@@ -171,6 +172,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: agent - eBPF Optimize interface 'java_syms_update_main' [#8102](https://github.com/deepflowio/deepflow/pull/8102) by [yinjiping](https://github.com/yinjiping)
+* feat: support profile data compression when sending [#8094](https://github.com/deepflowio/deepflow/pull/8094) by [lzf575](https://github.com/lzf575)
 * feat: generate agent.proto to grpc data [#8023](https://github.com/deepflowio/deepflow/pull/8023) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: querier converts types when using dictget [#8012](https://github.com/deepflowio/deepflow/pull/8012) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: switch ClickHouse endpoint without restart [#7969](https://github.com/deepflowio/deepflow/pull/7969) by [lzf575](https://github.com/lzf575)
@@ -404,6 +407,7 @@
 
 
 #### OTHER
+* Cmbc [#8098](https://github.com/deepflowio/deepflow/pull/8098) by [rvql](https://github.com/rvql)
 * Relaxing regular expression restrictions for the ClusterID [#7907](https://github.com/deepflowio/deepflow/pull/7907) by [Hyzhou](https://github.com/Hyzhou)
 * use .env to config docker-compose.yaml [#7729](https://github.com/deepflowio/deepflow/pull/7729) by [asdfsx](https://github.com/asdfsx)
 * refector: add agent.proto [#7695](https://github.com/deepflowio/deepflow/pull/7695) by [yuanchaoa](https://github.com/yuanchaoa)
