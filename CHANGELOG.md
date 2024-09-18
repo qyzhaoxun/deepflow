@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: memory profile feature compile failed [#8157](https://github.com/deepflowio/deepflow/pull/8157) by [lzf575](https://github.com/lzf575)
 * fix: agent - eBPF fentry/fexit Check for '__sys_recvmmsg' [#8014](https://github.com/deepflowio/deepflow/pull/8014) by [yinjiping](https://github.com/yinjiping)
 * fix: resource label errors for non-default organization resource change events [#8008](https://github.com/deepflowio/deepflow/pull/8008) by [lzf575](https://github.com/lzf575)
 * fix: controller records unnecessary error logs [#7995](https://github.com/deepflowio/deepflow/pull/7995) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
@@ -360,6 +361,9 @@
 * feat: server directly reports metrics of load1_by_cpu_num that can be used for alert [#7088](https://github.com/deepflowio/deepflow/pull/7088) by [lzf575](https://github.com/lzf575)
 
 #### Refactoring
+* refactor: Remove extended proc event handler [#8161](https://github.com/deepflowio/deepflow/pull/8161) by [rvql](https://github.com/rvql)
+* refactor: Remove old profiler regex [#8158](https://github.com/deepflowio/deepflow/pull/8158) by [rvql](https://github.com/rvql)
+* refactor: agent adds a disable_cgroups option [#8140](https://github.com/deepflowio/deepflow/pull/8140) by [TomatoMr](https://github.com/TomatoMr)
 * refactor: remove unused sql [#7656](https://github.com/deepflowio/deepflow/pull/7656) by [roryye](https://github.com/roryye)
 * refactor: Adjust agent profile configurations [#7918](https://github.com/deepflowio/deepflow/pull/7918) by [rvql](https://github.com/rvql)
 * refactor: update trace_tree debug info [#7915](https://github.com/deepflowio/deepflow/pull/7915) by [lzf575](https://github.com/lzf575)
