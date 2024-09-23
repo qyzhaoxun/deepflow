@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: ebpf dispatcher build error [#8197](https://github.com/deepflowio/deepflow/pull/8197) by [TomatoMr](https://github.com/TomatoMr)
+* fix: peer connection api limit [#8194](https://github.com/deepflowio/deepflow/pull/8194) by [askyrie](https://github.com/askyrie)
+* fix: incorrect tcp rrt [#8152](https://github.com/deepflowio/deepflow/pull/8152) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: agent - eBPF fentry/fexit Check for '__sys_recvmmsg' [#8014](https://github.com/deepflowio/deepflow/pull/8014) by [yinjiping](https://github.com/yinjiping)
 * fix: resource label errors for non-default organization resource change events [#8008](https://github.com/deepflowio/deepflow/pull/8008) by [lzf575](https://github.com/lzf575)
 * fix: controller records unnecessary error logs [#7995](https://github.com/deepflowio/deepflow/pull/7995) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
@@ -171,6 +174,10 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Modify default l7 protocol enable [#8198](https://github.com/deepflowio/deepflow/pull/8198) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: reduce the application protocols parsed by default [#8196](https://github.com/deepflowio/deepflow/pull/8196) by [sharang](https://github.com/sharang)
+* feat: default genesis sync vpc name [#8192](https://github.com/deepflowio/deepflow/pull/8192) by [askyrie](https://github.com/askyrie)
+* feat: update cloud region filter [#8105](https://github.com/deepflowio/deepflow/pull/8105) by [askyrie](https://github.com/askyrie)
 * feat: generate agent.proto to grpc data [#8023](https://github.com/deepflowio/deepflow/pull/8023) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: querier converts types when using dictget [#8012](https://github.com/deepflowio/deepflow/pull/8012) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: switch ClickHouse endpoint without restart [#7969](https://github.com/deepflowio/deepflow/pull/7969) by [lzf575](https://github.com/lzf575)
