@@ -171,6 +171,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: exist function supports non-resource tags [#8255](https://github.com/deepflowio/deepflow/pull/8255) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: add process listener [#8211](https://github.com/deepflowio/deepflow/pull/8211) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: generate agent.proto to grpc data [#8023](https://github.com/deepflowio/deepflow/pull/8023) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: querier converts types when using dictget [#8012](https://github.com/deepflowio/deepflow/pull/8012) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: switch ClickHouse endpoint without restart [#7969](https://github.com/deepflowio/deepflow/pull/7969) by [lzf575](https://github.com/lzf575)
