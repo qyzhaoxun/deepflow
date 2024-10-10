@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: compilation error [#8261](https://github.com/deepflowio/deepflow/pull/8261) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: agent - eBPF fentry/fexit Check for '__sys_recvmmsg' [#8014](https://github.com/deepflowio/deepflow/pull/8014) by [yinjiping](https://github.com/yinjiping)
 * fix: resource label errors for non-default organization resource change events [#8008](https://github.com/deepflowio/deepflow/pull/8008) by [lzf575](https://github.com/lzf575)
 * fix: controller records unnecessary error logs [#7995](https://github.com/deepflowio/deepflow/pull/7995) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
@@ -171,6 +172,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: support extra filter for promql query [#8263](https://github.com/deepflowio/deepflow/pull/8263) by [taloric](https://github.com/taloric)
+* feat: memcached support [#8257](https://github.com/deepflowio/deepflow/pull/8257) by [rvql](https://github.com/rvql)
 * feat: generate agent.proto to grpc data [#8023](https://github.com/deepflowio/deepflow/pull/8023) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: querier converts types when using dictget [#8012](https://github.com/deepflowio/deepflow/pull/8012) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: switch ClickHouse endpoint without restart [#7969](https://github.com/deepflowio/deepflow/pull/7969) by [lzf575](https://github.com/lzf575)
