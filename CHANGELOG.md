@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: fix bug in some vtap exception translation [#8346](https://github.com/deepflowio/deepflow/pull/8346) by [SongZhen0704](https://github.com/SongZhen0704)
+* fix: fix bug in vtap exception translation [#8344](https://github.com/deepflowio/deepflow/pull/8344) by [SongZhen0704](https://github.com/SongZhen0704)
 * fix: agent - eBPF Random time to process symbol table creation [#8283](https://github.com/deepflowio/deepflow/pull/8283) by [yinjiping](https://github.com/yinjiping)
 * fix: agent - eBPF Handle the scenario where CONFIG_NET_NS is disabled [#8282](https://github.com/deepflowio/deepflow/pull/8282) by [yinjiping](https://github.com/yinjiping)
 * fix: add export thread id [#8278](https://github.com/deepflowio/deepflow/pull/8278) by [lzf575](https://github.com/lzf575)
@@ -215,6 +217,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: support same pron in extra-filters [#8339](https://github.com/deepflowio/deepflow/pull/8339) by [taloric](https://github.com/taloric)
 * feat: exist function supports non-resource tags [#8255](https://github.com/deepflowio/deepflow/pull/8255) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: add process listener [#8211](https://github.com/deepflowio/deepflow/pull/8211) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: agent - eBPF Adapt 5.10.204-rt100-AD1000-PROTO [#8246](https://github.com/deepflowio/deepflow/pull/8246) by [yinjiping](https://github.com/yinjiping)
