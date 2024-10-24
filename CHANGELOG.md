@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: use sw uri to identify json/grpc request [#8369](https://github.com/deepflowio/deepflow/pull/8369) by [taloric](https://github.com/taloric)
 * fix: agent - eBPF Random time to process symbol table creation [#8283](https://github.com/deepflowio/deepflow/pull/8283) by [yinjiping](https://github.com/yinjiping)
 * fix: agent - eBPF Handle the scenario where CONFIG_NET_NS is disabled [#8282](https://github.com/deepflowio/deepflow/pull/8282) by [yinjiping](https://github.com/yinjiping)
 * fix: add export thread id [#8278](https://github.com/deepflowio/deepflow/pull/8278) by [lzf575](https://github.com/lzf575)
@@ -215,6 +216,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: [controller] support agent config sys_free_memory_metric [#8367](https://github.com/deepflowio/deepflow/pull/8367) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: memory supports metric available [#8362](https://github.com/deepflowio/deepflow/pull/8362) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: exist function supports non-resource tags [#8255](https://github.com/deepflowio/deepflow/pull/8255) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: add process listener [#8211](https://github.com/deepflowio/deepflow/pull/8211) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: agent - eBPF Adapt 5.10.204-rt100-AD1000-PROTO [#8246](https://github.com/deepflowio/deepflow/pull/8246) by [yinjiping](https://github.com/yinjiping)
