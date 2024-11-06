@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: agent - eBPF Adjust the control logic for modifying map size [#8456](https://github.com/deepflowio/deepflow/pull/8456) by [yinjiping](https://github.com/yinjiping)
+* fix: no need to retry after writing failure [#8453](https://github.com/deepflowio/deepflow/pull/8453) by [lzf575](https://github.com/lzf575)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
@@ -224,6 +226,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Enable agent new rpc by default [#8455](https://github.com/deepflowio/deepflow/pull/8455) by [rvql](https://github.com/rvql)
+* feat: update trisolaris dynamic config [#8450](https://github.com/deepflowio/deepflow/pull/8450) by [askyrie](https://github.com/askyrie)
 * feat: querier optimize ip filter [#8343](https://github.com/deepflowio/deepflow/pull/8343) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
