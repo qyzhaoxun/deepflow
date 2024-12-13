@@ -8,6 +8,10 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Configuration text [#8701](https://github.com/deepflowio/deepflow/pull/8701) by [rvql](https://github.com/rvql)
+* fix: recorder fails to clean 10w data at one time [#8699](https://github.com/deepflowio/deepflow/pull/8699) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: agent - eBPF Correct the maximum data push delay [#8694](https://github.com/deepflowio/deepflow/pull/8694) by [yinjiping](https://github.com/yinjiping)
+* fix: fix ip filter error [#8693](https://github.com/deepflowio/deepflow/pull/8693) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
