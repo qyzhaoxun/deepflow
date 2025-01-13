@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: agent - eBPF Fix find_pid_by_name() missing closedir() [#8908](https://github.com/deepflowio/deepflow/pull/8908) by [yinjiping](https://github.com/yinjiping)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
@@ -224,6 +225,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* Revert "feat: upgrades golang version in go.mod" [#8906](https://github.com/deepflowio/deepflow/pull/8906) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: upgrades golang version in go.mod [#8897](https://github.com/deepflowio/deepflow/pull/8897) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: support l7 parsing for rocketmq protocol [#8874](https://github.com/deepflowio/deepflow/pull/8874) by [kylewanginchina](https://github.com/kylewanginchina)
 * feat: querier optimize ip filter [#8343](https://github.com/deepflowio/deepflow/pull/8343) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
@@ -503,6 +507,7 @@
 * docs: rename opentemetry to opentelemetry [#7245](https://github.com/deepflowio/deepflow/pull/7245) by [lzf575](https://github.com/lzf575)
 
 #### Chore
+* chore: remove default enable config for rocketmq [#8905](https://github.com/deepflowio/deepflow/pull/8905) by [kylewanginchina](https://github.com/kylewanginchina)
 * chore: Improve rebuild speed by eliminating unnecessary rerun of build.rs [#8207](https://github.com/deepflowio/deepflow/pull/8207) by [rvql](https://github.com/rvql)
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
 
