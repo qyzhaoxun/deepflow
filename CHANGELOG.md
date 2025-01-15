@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: The process matcher is missing kernel processes [#8935](https://github.com/deepflowio/deepflow/pull/8935) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
@@ -224,6 +225,10 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: querier optimize dynamic metrics [#8939](https://github.com/deepflowio/deepflow/pull/8939) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: agent - eBPF Adjust Profile MAP Recycling Log Level [#8937](https://github.com/deepflowio/deepflow/pull/8937) by [yinjiping](https://github.com/yinjiping)
+* feat: Support agent max socket limit [#8932](https://github.com/deepflowio/deepflow/pull/8932) by [rvql](https://github.com/rvql)
+* feat: supports db initialization in postgres [#8913](https://github.com/deepflowio/deepflow/pull/8913) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * feat: querier optimize ip filter [#8343](https://github.com/deepflowio/deepflow/pull/8343) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
