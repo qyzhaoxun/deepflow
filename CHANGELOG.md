@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: data_source table init failed [#9266](https://github.com/deepflowio/deepflow/pull/9266) by [SongZhen0704](https://github.com/SongZhen0704)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
@@ -224,6 +225,12 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: modify default query_time [#9263](https://github.com/deepflowio/deepflow/pull/9263) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: add query_time in data_source [#9255](https://github.com/deepflowio/deepflow/pull/9255) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: output k8s cluster [#9253](https://github.com/deepflowio/deepflow/pull/9253) by [askyrie](https://github.com/askyrie)
+* feat: refresh agent upgrade [#9245](https://github.com/deepflowio/deepflow/pull/9245) by [askyrie](https://github.com/askyrie)
+* feat: change custom category to custom tag category [#9228](https://github.com/deepflowio/deepflow/pull/9228) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: agent upgrade image add cache [#9186](https://github.com/deepflowio/deepflow/pull/9186) by [askyrie](https://github.com/askyrie)
 * feat: querier optimize ip filter [#8343](https://github.com/deepflowio/deepflow/pull/8343) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
