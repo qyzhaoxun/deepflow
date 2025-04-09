@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Fix tracing tag priority [#9451](https://github.com/deepflowio/deepflow/pull/9451) by [rvql](https://github.com/rvql)
+* fix: agent - eBPF Fix byte order of DNS IP address [#9444](https://github.com/deepflowio/deepflow/pull/9444) by [yinjiping](https://github.com/yinjiping)
+* fix: fix promql query return ck sql [#9440](https://github.com/deepflowio/deepflow/pull/9440) by [taloric](https://github.com/taloric)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
@@ -224,6 +227,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Support priority of configured tracing tags [#9449](https://github.com/deepflowio/deepflow/pull/9449) by [rvql](https://github.com/rvql)
+* feat: update controller const [#9447](https://github.com/deepflowio/deepflow/pull/9447) by [askyrie](https://github.com/askyrie)
+* feat: Support module log level config [#9436](https://github.com/deepflowio/deepflow/pull/9436) by [rvql](https://github.com/rvql)
 * feat: querier optimize ip filter [#8343](https://github.com/deepflowio/deepflow/pull/8343) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
