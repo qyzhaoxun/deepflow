@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: agent - eBPF Fix high resource usage in container ID retrieval [#9622](https://github.com/deepflowio/deepflow/pull/9622) by [yinjiping](https://github.com/yinjiping)
+* fix: Windows compile [#9613](https://github.com/deepflowio/deepflow/pull/9613) by [rvql](https://github.com/rvql)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
