@@ -8,6 +8,10 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: auto group slimit error [#9641](https://github.com/deepflowio/deepflow/pull/9641) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* fix: close ckwriter cause panic [#9640](https://github.com/deepflowio/deepflow/pull/9640) by [lzf575](https://github.com/lzf575)
+* fix: owner vtap no license func [#9637](https://github.com/deepflowio/deepflow/pull/9637) by [askyrie](https://github.com/askyrie)
+* fix: modify metrics calculation logic [#9628](https://github.com/deepflowio/deepflow/pull/9628) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
