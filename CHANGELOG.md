@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: deepflow-ctl vpc list error [#9781](https://github.com/deepflowio/deepflow/pull/9781) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: produces wrong config map diff content [#9766](https://github.com/deepflowio/deepflow/pull/9766) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
@@ -224,6 +226,12 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: querier add modify config [#9795](https://github.com/deepflowio/deepflow/pull/9795) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: resource event support fill tags with gprocessid [#9794](https://github.com/deepflowio/deepflow/pull/9794) by [lzf575](https://github.com/lzf575)
+* feat: add device type process [#9789](https://github.com/deepflowio/deepflow/pull/9789) by [lzf575](https://github.com/lzf575)
+* feat: responses agent config dict sub field default value [#9780](https://github.com/deepflowio/deepflow/pull/9780) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: if there are duplicate MACs, do not use MAC to tag [#9774](https://github.com/deepflowio/deepflow/pull/9774) by [lzf575](https://github.com/lzf575)
+* feat: Support grpc buffer size [#9762](https://github.com/deepflowio/deepflow/pull/9762) by [rvql](https://github.com/rvql)
 * feat: querier optimize ip filter [#8343](https://github.com/deepflowio/deepflow/pull/8343) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
@@ -507,6 +515,7 @@
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
 
 #### OTHER
+* README 中添加 GitCode 挂件 [#9791](https://github.com/deepflowio/deepflow/pull/9791) by [1473371932](https://github.com/1473371932)
 * add ci to clear stale branch [#8149](https://github.com/deepflowio/deepflow/pull/8149) by [jiumos](https://github.com/jiumos)
 * failed to create tables in ByConity database under non-default organization [#8148](https://github.com/deepflowio/deepflow/pull/8148) by [lzf575](https://github.com/lzf575)
 * Update typo in comments [#8127](https://github.com/deepflowio/deepflow/pull/8127) by [Hyzhou](https://github.com/Hyzhou)
