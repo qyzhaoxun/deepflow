@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: resource event fill vpc with raw value [#9813](https://github.com/deepflowio/deepflow/pull/9813) by [lzf575](https://github.com/lzf575)
+* fix: modify event tag missing [#9810](https://github.com/deepflowio/deepflow/pull/9810) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
@@ -224,6 +226,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Treat truncated mysql responses as OK [#9811](https://github.com/deepflowio/deepflow/pull/9811) by [rvql](https://github.com/rvql)
+* feat: add grpc streaming enabled [#9802](https://github.com/deepflowio/deepflow/pull/9802) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: querier optimize ip filter [#8343](https://github.com/deepflowio/deepflow/pull/8343) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
