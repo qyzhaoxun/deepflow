@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Incorrect L7Log resp timeout status [#9852](https://github.com/deepflowio/deepflow/pull/9852) by [rvql](https://github.com/rvql)
+* fix: free disk monitor compile failed on windows [#9847](https://github.com/deepflowio/deepflow/pull/9847) by [lzf575](https://github.com/lzf575)
+* fix: self stats will lose one after a period of time [#9838](https://github.com/deepflowio/deepflow/pull/9838) by [lzf575](https://github.com/lzf575)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
@@ -224,6 +227,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: http2 support multi request [#9836](https://github.com/deepflowio/deepflow/pull/9836) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: alarm_policy add recovery_event_levels [#9796](https://github.com/deepflowio/deepflow/pull/9796) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: querier optimize ip filter [#8343](https://github.com/deepflowio/deepflow/pull/8343) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
