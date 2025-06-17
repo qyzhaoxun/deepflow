@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: does not check license when using bill model [#9861](https://github.com/deepflowio/deepflow/pull/9861) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: clickhouse dictionary creation error [#9856](https://github.com/deepflowio/deepflow/pull/9856) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
