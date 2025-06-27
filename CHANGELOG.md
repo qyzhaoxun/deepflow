@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Multi ns packet capture and socket sync [#9955](https://github.com/deepflowio/deepflow/pull/9955) by [rvql](https://github.com/rvql)
+* fix: matching service, no VPC verification first [#9950](https://github.com/deepflowio/deepflow/pull/9950) by [lzf575](https://github.com/lzf575)
+* fix: incorrect l7 ebpf packet size [#9945](https://github.com/deepflowio/deepflow/pull/9945) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
