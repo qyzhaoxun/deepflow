@@ -8,6 +8,10 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: agent is restarted when vpc is 0 [#9992](https://github.com/deepflowio/deepflow/pull/9992) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: responses gid to gpid-agent-request [#9990](https://github.com/deepflowio/deepflow/pull/9990) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: incorrect log_retention [#9986](https://github.com/deepflowio/deepflow/pull/9986) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: the OOM caused by enabling uprobe [#9982](https://github.com/deepflowio/deepflow/pull/9982) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
@@ -224,6 +228,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: host concatenated with port support ipv6 [#9930](https://github.com/deepflowio/deepflow/pull/9930) by [askyrie](https://github.com/askyrie)
 * feat: querier optimize ip filter [#8343](https://github.com/deepflowio/deepflow/pull/8343) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
