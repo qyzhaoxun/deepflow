@@ -8,6 +8,11 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: log level warning should be WARN [#10033](https://github.com/deepflowio/deepflow/pull/10033) by [lzf575](https://github.com/lzf575)
+* fix: too many config logs [#10030](https://github.com/deepflowio/deepflow/pull/10030) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: fails to insert too long config_map [#10026](https://github.com/deepflowio/deepflow/pull/10026) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: license func convert to int [#10023](https://github.com/deepflowio/deepflow/pull/10023) by [askyrie](https://github.com/askyrie)
+* fix: tagrecoder corrects the value of gprocess [#9860](https://github.com/deepflowio/deepflow/pull/9860) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
@@ -224,6 +229,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: agent - eBPF Get the remote IP and port of the UDP [#10028](https://github.com/deepflowio/deepflow/pull/10028) by [Heyxk](https://github.com/Heyxk)
 * feat: querier optimize ip filter [#8343](https://github.com/deepflowio/deepflow/pull/8343) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
