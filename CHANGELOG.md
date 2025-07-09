@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Unix Socket data does not use TCP Seq Offset [#10061](https://github.com/deepflowio/deepflow/pull/10061) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: missing service info in pod_service config event [#10053](https://github.com/deepflowio/deepflow/pull/10053) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
