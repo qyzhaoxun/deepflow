@@ -8,6 +8,11 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: remote agent cmd concurrent panic [#10075](https://github.com/deepflowio/deepflow/pull/10075) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: Multins dispatch rx counter doubled [#10074](https://github.com/deepflowio/deepflow/pull/10074) by [rvql](https://github.com/rvql)
+* fix: agent upgradee failed [#10067](https://github.com/deepflowio/deepflow/pull/10067) by [askyrie](https://github.com/askyrie)
+* fix: missing pod info in process deletion event [#10064](https://github.com/deepflowio/deepflow/pull/10064) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: querier remove auto ip tag [#10062](https://github.com/deepflowio/deepflow/pull/10062) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
@@ -224,6 +229,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: querier modify event_type displayname [#10068](https://github.com/deepflowio/deepflow/pull/10068) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: resource events first get gprocess info from podId [#10065](https://github.com/deepflowio/deepflow/pull/10065) by [lzf575](https://github.com/lzf575)
 * feat: querier optimize ip filter [#8343](https://github.com/deepflowio/deepflow/pull/8343) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
