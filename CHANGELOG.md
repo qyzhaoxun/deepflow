@@ -8,6 +8,10 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: failed to get k8s cluster id [#10305](https://github.com/deepflowio/deepflow/pull/10305) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: The proxy controller IP is not used [#10300](https://github.com/deepflowio/deepflow/pull/10300) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: resource event can not related with pod group [#10299](https://github.com/deepflowio/deepflow/pull/10299) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: Fix l7 perf stats blacklist and refactor related code [#10298](https://github.com/deepflowio/deepflow/pull/10298) by [rvql](https://github.com/rvql)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
@@ -224,6 +228,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: refactors agent group api [#10301](https://github.com/deepflowio/deepflow/pull/10301) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * feat: querier optimize ip filter [#8343](https://github.com/deepflowio/deepflow/pull/8343) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
