@@ -8,6 +8,13 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: eBPF Resolve ARM static compilation [#10585](https://github.com/deepflowio/deepflow/pull/10585) by [yinjiping](https://github.com/yinjiping)
+* fix: for local IP data, tag it with Agent information [#10575](https://github.com/deepflowio/deepflow/pull/10575) by [lzf575](https://github.com/lzf575)
+* fix: agent - eBPF Adjust the display of the file directory (#10551) [#10572](https://github.com/deepflowio/deepflow/pull/10572) by [yinjiping](https://github.com/yinjiping)
+* Fix ai-devel.yaml to compatibly support fork and local pr [#10571](https://github.com/deepflowio/deepflow/pull/10571) by [kylewanginchina](https://github.com/kylewanginchina)
+* fix: agent - eBPF Fix the issue of failed loading on Linux kernel 4.1… [#10566](https://github.com/deepflowio/deepflow/pull/10566) by [yinjiping](https://github.com/yinjiping)
+* fix: add wespheremq/iso8583 l7 perf stats [#10563](https://github.com/deepflowio/deepflow/pull/10563) by [lzf575](https://github.com/lzf575)
+* fix: fix bug in agent exec command [#10560](https://github.com/deepflowio/deepflow/pull/10560) by [SongZhen0704](https://github.com/SongZhen0704)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
@@ -224,6 +231,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: genesis table add index [#10576](https://github.com/deepflowio/deepflow/pull/10576) by [askyrie](https://github.com/askyrie)
+* feat: modify the display name of the file_event table [#10568](https://github.com/deepflowio/deepflow/pull/10568) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: OTel adds parsing attribute network.peer.address [#10567](https://github.com/deepflowio/deepflow/pull/10567) by [lzf575](https://github.com/lzf575)
 * feat: querier optimize ip filter [#8343](https://github.com/deepflowio/deepflow/pull/8343) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
