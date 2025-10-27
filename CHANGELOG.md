@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: enterprise compile failed [#10664](https://github.com/deepflowio/deepflow/pull/10664) by [lzf575](https://github.com/lzf575)
+* fix: misremove tracetree trace_id_2 [#10661](https://github.com/deepflowio/deepflow/pull/10661) by [taloric](https://github.com/taloric)
+* fix: allow fuzzy search in payload [#10653](https://github.com/deepflowio/deepflow/pull/10653) by [taloric](https://github.com/taloric)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
@@ -224,6 +227,10 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: app log add trace id,span id [#10662](https://github.com/deepflowio/deepflow/pull/10662) by [lzf575](https://github.com/lzf575)
+* feat: attribute web.vitals.xxx as OTel metrics [#10660](https://github.com/deepflowio/deepflow/pull/10660) by [lzf575](https://github.com/lzf575)
+* feat: add uid for dedup metrics in trace tree [#10648](https://github.com/deepflowio/deepflow/pull/10648) by [taloric](https://github.com/taloric)
+* feat: support multiple trace_ids [#10646](https://github.com/deepflowio/deepflow/pull/10646) by [lzf575](https://github.com/lzf575)
 * feat: querier optimize ip filter [#8343](https://github.com/deepflowio/deepflow/pull/8343) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
