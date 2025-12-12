@@ -224,6 +224,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: add trace_map querier config & overview api [#10973](https://github.com/deepflowio/deepflow/pull/10973) by [taloric](https://github.com/taloric)
+* feat: querier topk supports enum function [#10970](https://github.com/deepflowio/deepflow/pull/10970) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: querier optimize ip filter [#8343](https://github.com/deepflowio/deepflow/pull/8343) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
