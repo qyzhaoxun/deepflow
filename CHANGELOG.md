@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: avoid performance problem by skipping rocketmq body extraction [#11003](https://github.com/deepflowio/deepflow/pull/11003) by [kylewanginchina](https://github.com/kylewanginchina)
+* fix: universalTagMaps nil panic [#11000](https://github.com/deepflowio/deepflow/pull/11000) by [lzf575](https://github.com/lzf575)
+* Update ai-devel.yaml to support sonnet 4.5 and fix issue judgement [#10992](https://github.com/deepflowio/deepflow/pull/10992) by [kylewanginchina](https://github.com/kylewanginchina)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
@@ -224,6 +227,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: eBPF adapt ubuntu kernel 4.15.0 [#11002](https://github.com/deepflowio/deepflow/pull/11002) by [yinjiping](https://github.com/yinjiping)
+* feat: Ignore k8s kube-ipvs0 [#10983](https://github.com/deepflowio/deepflow/pull/10983) by [rvql](https://github.com/rvql)
+* feat: support php and nodejs/v8 unwind with ebpf [#10410](https://github.com/deepflowio/deepflow/pull/10410) by [kylewanginchina](https://github.com/kylewanginchina)
 * feat: querier optimize ip filter [#8343](https://github.com/deepflowio/deepflow/pull/8343) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
@@ -455,6 +461,7 @@
 * feat: server directly reports metrics of load1_by_cpu_num that can be used for alert [#7088](https://github.com/deepflowio/deepflow/pull/7088) by [lzf575](https://github.com/lzf575)
 
 #### Refactoring
+* refactor: Add auto merging for custom fields [#10988](https://github.com/deepflowio/deepflow/pull/10988) by [rvql](https://github.com/rvql)
 * refactor: modify log of configuration changes [#8258](https://github.com/deepflowio/deepflow/pull/8258) by [yuanchaoa](https://github.com/yuanchaoa)
 * refactor: agent workspace dependencies [#8208](https://github.com/deepflowio/deepflow/pull/8208) by [TomatoMr](https://github.com/TomatoMr)
 * refactor: agent is compatibles with configuration and interfaces of both old and new versions [#8084](https://github.com/deepflowio/deepflow/pull/8084) by [TomatoMr](https://github.com/TomatoMr)
