@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: derive L7Log problems [#11258](https://github.com/deepflowio/deepflow/pull/11258) by [rvql](https://github.com/rvql)
+* fix: eBPF Modify the kallsyms checking logic [#11255](https://github.com/deepflowio/deepflow/pull/11255) by [yinjiping](https://github.com/yinjiping)
+* fix: solve crash problem for lua unwind in arm64 in some cases [#11230](https://github.com/deepflowio/deepflow/pull/11230) by [kylewanginchina](https://github.com/kylewanginchina)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
@@ -224,6 +227,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: create cluster_id for all domains [#11247](https://github.com/deepflowio/deepflow/pull/11247) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * feat: querier optimize ip filter [#8343](https://github.com/deepflowio/deepflow/pull/8343) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
