@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: regester vtap failed [#11338](https://github.com/deepflowio/deepflow/pull/11338) by [askyrie](https://github.com/askyrie)
+* fix: recorder cleaner performance and too big log [#11336](https://github.com/deepflowio/deepflow/pull/11336) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
@@ -224,6 +226,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: add resp info in tracetree [#11333](https://github.com/deepflowio/deepflow/pull/11333) by [taloric](https://github.com/taloric)
+* feat: add TCP option tracing support [#10960](https://github.com/deepflowio/deepflow/pull/10960) by [qlndzt](https://github.com/qlndzt)
 * feat: querier optimize ip filter [#8343](https://github.com/deepflowio/deepflow/pull/8343) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
