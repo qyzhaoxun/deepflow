@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: if service not matched by pod, skip VPC IP matching [#11369](https://github.com/deepflowio/deepflow/pull/11369) by [lzf575](https://github.com/lzf575)
+* fix: eBPF Fix eBPF load failure on Linux 4.14 kernel [#11366](https://github.com/deepflowio/deepflow/pull/11366) by [yinjiping](https://github.com/yinjiping)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
