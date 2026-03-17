@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: incorrect server port [#11475](https://github.com/deepflowio/deepflow/pull/11475) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: trace node success count error [#11474](https://github.com/deepflowio/deepflow/pull/11474) by [taloric](https://github.com/taloric)
+* fix: ISO-8583 exception return code 96 A0 30 [#11472](https://github.com/deepflowio/deepflow/pull/11472) by [lzf575](https://github.com/lzf575)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
@@ -498,6 +501,7 @@
 * perf: improve parsing RequestResource from http.url of OTel data [#7172](https://github.com/deepflowio/deepflow/pull/7172) by [lzf575](https://github.com/lzf575)
 
 #### Documentation
+* docs: update description in schema [#11471](https://github.com/deepflowio/deepflow/pull/11471) by [rvql](https://github.com/rvql)
 * docs: polish compression config [#7701](https://github.com/deepflowio/deepflow/pull/7701) by [sharang](https://github.com/sharang)
 * docs: agent correct the description of inputs.ebpf.socket.tunning [#7664](https://github.com/deepflowio/deepflow/pull/7664) by [TomatoMr](https://github.com/TomatoMr)
 * docs: rename opentemetry to opentelemetry [#7245](https://github.com/deepflowio/deepflow/pull/7245) by [lzf575](https://github.com/lzf575)
