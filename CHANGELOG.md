@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: response_code support zero value in pcap verify api [#11483](https://github.com/deepflowio/deepflow/pull/11483) by [SongZhen0704](https://github.com/SongZhen0704)
+* fix: PCap replay crashes with custom protocol [#11482](https://github.com/deepflowio/deepflow/pull/11482) by [rvql](https://github.com/rvql)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
@@ -224,6 +226,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: add alarm related table [#11480](https://github.com/deepflowio/deepflow/pull/11480) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: eBPF Add the relevant XDP CPU balancer related code [#11268](https://github.com/deepflowio/deepflow/pull/11268) by [yinjiping](https://github.com/yinjiping)
 * feat: querier optimize ip filter [#8343](https://github.com/deepflowio/deepflow/pull/8343) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
