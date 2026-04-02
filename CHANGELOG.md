@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: endless decode_map loop [#11570](https://github.com/deepflowio/deepflow/pull/11570) by [taloric](https://github.com/taloric)
+* fix: response count has decreased [#11561](https://github.com/deepflowio/deepflow/pull/11561) by [lzf575](https://github.com/lzf575)
+* fix: treat RST-after-successful-L7 as normal close (TcpFinClientRst) [#11557](https://github.com/deepflowio/deepflow/pull/11557) by [kylewanginchina](https://github.com/kylewanginchina)
 * fix: More configuration parse bugs [#8364](https://github.com/deepflowio/deepflow/pull/8364) by [rvql](https://github.com/rvql)
 * fix: LogLevel deserialize [#8363](https://github.com/deepflowio/deepflow/pull/8363) by [rvql](https://github.com/rvql)
 * fix: Duration deserialize in config [#8361](https://github.com/deepflowio/deepflow/pull/8361) by [rvql](https://github.com/rvql)
@@ -507,6 +510,7 @@
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
 
 #### OTHER
+* Update ai-devel.yaml [#11576](https://github.com/deepflowio/deepflow/pull/11576) by [kylewanginchina](https://github.com/kylewanginchina)
 * add ci to clear stale branch [#8149](https://github.com/deepflowio/deepflow/pull/8149) by [jiumos](https://github.com/jiumos)
 * failed to create tables in ByConity database under non-default organization [#8148](https://github.com/deepflowio/deepflow/pull/8148) by [lzf575](https://github.com/lzf575)
 * Update typo in comments [#8127](https://github.com/deepflowio/deepflow/pull/8127) by [Hyzhou](https://github.com/Hyzhou)
