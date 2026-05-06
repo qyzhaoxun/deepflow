@@ -224,6 +224,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: add clickhouse storage monitor [#11695](https://github.com/deepflowio/deepflow/pull/11695) by [lzf575](https://github.com/lzf575)
+* feat(agent): add configurable socket syscall hook list [#11662](https://github.com/deepflowio/deepflow/pull/11662) by [yinjiping](https://github.com/yinjiping)
+* feat: support agent governance [#11446](https://github.com/deepflowio/deepflow/pull/11446) by [kylewanginchina](https://github.com/kylewanginchina)
 * feat: querier optimize ip filter [#8343](https://github.com/deepflowio/deepflow/pull/8343) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: modify the epc of multicast address [#8336](https://github.com/deepflowio/deepflow/pull/8336) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: move zmq to plugins [#8327](https://github.com/deepflowio/deepflow/pull/8327) by [yuanchaoa](https://github.com/yuanchaoa)
